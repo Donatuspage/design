@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    margin-top: 0px;
+}
+#first-p{
+    text-align:right;
+     background-color: brown; 
+}
+.main-container{
+    min-height: 100%;
+    display: inline-block;
+    width: 92%;
+    border-radius: 10px;
+     background-color: red; 
+     border: solid  10px yellow; 
+     padding: 20px; 
+    margin-inline: auto;
+}
+
+.nav-bar{
+    background-color: blue;
+    height: 10vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav, .right-nav{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+}
+
+
+.right-nav >div, .left-nav >  div{
+    margin-inline: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main-section{
+    margin-top: 3vh;
+    width: 62%;
+    height: 87vh;
+    background-color: orange;
+}
+
+.right-side-bar{
+    margin-top: 3vh;
+    width: 35%;
+    height: 87vh;
+    background-color: orange;
+}
